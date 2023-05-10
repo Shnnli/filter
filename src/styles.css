@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  filter: grayscale(0);
+}
+
+.id1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.id2 {
+  /* content: ""; */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 2px;
+  /* z-index: 9; */
+  background-color: red;
+  transform: translateY(50%);
+}
+
+.id3 {
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  background-color: yellow;
+  position: absolute;
+  /* position: relative; */
+}
