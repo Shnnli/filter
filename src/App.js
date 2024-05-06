@@ -10,9 +10,7 @@ export default function App() {
   const change2 = () => {
     // ref.current.style.filter = "grayscale(1)";
   };
-  // 测试1
-
-  const x = 2;
+  // 测试222
   return (
     <>
       <div className="App" ref={ref}>
